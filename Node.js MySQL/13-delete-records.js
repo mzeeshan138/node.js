@@ -17,3 +17,14 @@ con.connect(function (err) {
     console.log('Number of records deleted: ' + result.affectedRows);
   });
 });
+
+// {
+//     fieldCount: 0,
+//     affectedRows: 1,
+//     insertId: 0,
+//     serverStatus: 34,
+//     warningCount: 0,
+//     message: '',
+//     protocol41: true,
+//     changedRows: 0
+//   }
