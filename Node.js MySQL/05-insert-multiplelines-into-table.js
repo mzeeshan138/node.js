@@ -44,3 +44,6 @@ con.connect(function (err) {
   protocol41: true,
   changedRows: 0
 } */
+
+// const sql2 = `INSERT INTO products (id, name) VALUES  (154, 'Chocolate Heaven'),  (155, 'Tasty Lemons'),  (156, 'Vanilla Dreams')`;
+// const sql3 = `INSERT INTO users (id, name, favorite_product) VALUES(1, 'John', 154),(2, 'Peter', 154),(3, 'Amy', 155),(4, 'Hannah', NULL),(5, 'Michael', NULL)`;
