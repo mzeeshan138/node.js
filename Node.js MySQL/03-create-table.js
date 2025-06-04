@@ -18,3 +18,5 @@ con.connect(function (err) {
     console.log('Table created');
   });
 });
+//const sql2='CREATE TABLE products (  id INT PRIMARY KEY,  name VARCHAR(100) NOT NULL)';
+//const sql3='CREATE TABLE users (id INT PRIMARY KEY, name (100) NOT NULL, favorite_product INT, FOREIGN KEY (favorite_product) REFERENCES products(id))';
