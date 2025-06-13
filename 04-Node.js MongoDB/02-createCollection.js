@@ -1,4 +1,4 @@
-// Example: create a collection "customers" in database "mydb" using MongoDB Node.js driver v4+
+// create a collection "customers" in database "mydb" using MongoDB Node.js driver v4+
 const { MongoClient } = require('mongodb');
 
 const url = 'mongodb://localhost:27017'; // no trailing slash needed
